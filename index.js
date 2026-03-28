@@ -34,9 +34,9 @@ const processOrders = async () => {
       JSON.stringify(results, null, 2)
     );
 
-    console.log("✅ Orders processed successfully!");
+    console.log("Orders processed successfully!");
   } catch (err) {
-    console.error("❌ Unexpected Error:", err.message);
+    console.error("Unexpected Error:", err.message);
   }
 };
 
